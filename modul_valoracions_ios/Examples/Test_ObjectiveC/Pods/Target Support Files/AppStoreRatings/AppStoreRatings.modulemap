@@ -1,6 +1,0 @@
-framework module AppStoreRatings {
-  umbrella header "AppStoreRatings-umbrella.h"
-
-  export *
-  module * { export * }
-}
