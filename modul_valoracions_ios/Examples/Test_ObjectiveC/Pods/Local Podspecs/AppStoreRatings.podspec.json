@@ -1,0 +1,26 @@
+{
+  "name": "AppStoreRatings",
+  "version": "1.0.0",
+  "summary": "Automatically ask for App Store ratings",
+  "description": "Automatically manage the 'App Store ratings and reviews dialog' based on a minimum number of launches and minimum days since first launch",
+  "homepage": "https://gitlab.dtibcn.cat/osam_pm/modul_valoracions_ios.git",
+  "license": {
+    "type": "GNU",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Antonio García": "antonio@openroad.es"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://gitlab.dtibcn.cat/osam_pm/modul_valoracions_ios.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "AppStoreRatings/AppStoreRatings/**/*.{swift}",
+  "frameworks": [
+    "Foundation",
+    "StoreKit"
+  ]
+}

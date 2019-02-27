@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Test_ObjectiveC' do
+    platform :ios, '11.0'
+    
+    pod 'AppStoreRatings', :git => 'https://gitlab.dtibcn.cat/osam_pm/modul_valoracions_ios.git', :tag => '1.0.0'
+end

@@ -1,0 +1,17 @@
+PODS:
+  - AppStoreRatings (1.0.0)
+
+DEPENDENCIES:
+  - AppStoreRatings (from `/Users/antonio/Development/IMI/modul_valoracions_ios`)
+
+EXTERNAL SOURCES:
+  AppStoreRatings:
+    :path: "/Users/antonio/Development/IMI/modul_valoracions_ios"
+    :tag: 1.0.0
+
+SPEC CHECKSUMS:
+  AppStoreRatings: f4e4085bb05df4612d84ad0bd56711eb40237325
+
+PODFILE CHECKSUM: 419549b5ef656261b2225cbb33e48ee56dae844a
+
+COCOAPODS: 1.5.3
