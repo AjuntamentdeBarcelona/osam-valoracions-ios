@@ -7,7 +7,7 @@ AppStoreRatings es una librería para gestionar automáticamente cuándo pedir a
 Para integrar AppStoreRatings en un proyecto Xcode, especifique en el `Podfile`:
 
 ```
-pod 'AppStoreRatings', :git => 'https://github.com/AjuntamentdeBarcelona/osam-valoracions-ios', :tag => '1.0.0'
+pod 'AppStoreRatings', :git => 'https://github.com/AjuntamentdeBarcelona/osam-valoracions-ios'
 ```
 
 
