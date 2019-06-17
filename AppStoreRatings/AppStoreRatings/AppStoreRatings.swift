@@ -123,7 +123,7 @@ import StoreKit
      */
     @objc public func debugCurrentStatus(configURL url: URL, completion: @escaping (_ willRequestDialog: Bool, _ launchCountsRemaining: Int, _ daysRemaining: Double, _ wasPreviouslyRequested: Bool, _ error: Error?) -> ()) {
         
-        debugCurrentStatus(configURL: url) { result in
+        debugCurrentStatus(configURL: url) { (result: Result) in
             switch result {
             case let .success(willRequestDialog, launchCountsRemaining, daysRemaining, wasPreviouslyRequested):
                 completion(willRequestDialog, launchCountsRemaining, daysRemaining, wasPreviouslyRequested, nil)
