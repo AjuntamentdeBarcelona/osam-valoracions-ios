@@ -15,6 +15,8 @@ pod 'AppStoreRatings', :git => 'https://github.com/AjuntamentdeBarcelona/osam-va
 ## Configuración
 AppStoreRatings utiliza un archivo de configuración en formato JSON para indicar cuándo se debe mostrar al usuario el mensaje de valoración.
 
+Es necesario indicar en el fichero `config_keys.plist` en la variable `rate_url` la url donde está el json que tiene las condiciones de valoracion.
+
 Ejemplo de una archivo JSON de configuración:
 
 ```
