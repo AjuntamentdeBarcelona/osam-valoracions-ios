@@ -196,7 +196,7 @@ import StoreKit
     private func data(fromURL url: URL, completion: @escaping (Result<Data>) -> ()) {
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             guard let data = data else {
-                completion(.failure(error ?? NetworkError.emptyDataError()))
+                completion(.failure(error ?? NetworkError.emptyDataError))
                 return
             }
             
@@ -206,7 +206,7 @@ import StoreKit
     }
     
     enum NetworkError: Error {
-        case emptyDataError()
+        case emptyDataError
     }
 
     // MARK: - Persist Data
